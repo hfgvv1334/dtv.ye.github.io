@@ -1,0 +1,114 @@
+body{
+    background-image:url(https://xuconcept.com/wp-content/uploads/2021/11/tai-hinh-nen-mien-phi.jpg)
+}
+#box1{
+    background-image: linear-gradient(0deg,#f30c2b,#006eff);
+    width: 60%;
+    height: 1000px;
+    border-radius: 10px;
+    border-color: #66FF33;
+    margin-left: 20%;
+}
+.box2{
+    background-image: linear-gradient(0deg,#0cf387,#001aff);
+    width: 30vw;
+    height: 20%;
+    border-radius: 20%;
+    border-color: #66FF33;
+    margin-left: 25%
+}
+.box3{
+    background-image: linear-gradient(10deg,#0c83f3,#4400ff);
+    width: 100%;
+    height: 4%;
+    
+    border-color: #66FF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rb{
+    
+    
+    text-align :center;
+    padding:0;
+    -webkit-animation: animatedBackground_b 15s linear infinite alternate;
+        
+}
+
+@keyframes animatedBackground_b{
+    0% {color: #ff8b00}
+    10% {color: #e8ff00}
+    20% {color: #5dff00}
+    30% {color: #00ff2e}
+    40% {color: #00ff88}
+    50% {color: #0f2961}
+    60% {color: #101d58}
+    70% {color: #2e125f}
+    80% {color: #e800ff}
+    90% {color: #ff008b}
+    100% {color: #ff0000} }
+    .box4{
+        background-color: #55565c;
+        width: 90%;
+        height: 70%;
+        border-radius: 10px;
+        border-color: #66FF33;
+     margin-left: 5%;
+     margin-top: 3%;
+    }
+    @font-face {
+        src: url(fonts/Minecrafter.Reg.ttf);
+        font-family:minecraft;
+    }
+.title1{
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+color: #00ffdd;
+}
+.box4a1{
+    background-color: #1d1e20;
+    width: 100%;
+    height: 83%;
+    border-radius: 10px;
+    border-color: #66FF33;
+ 
+ 
+
+}
+.box4a1b1{
+    background-image: linear-gradient(10deg,#9f0fe2,#001aff);
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+    border-color: #66FF33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box4a1b2{
+    background-image: linear-gradient(10deg,#0b1785,#089992);
+    width: 90%;
+    height: 76%;
+    border-radius: 15px;
+    border-color: #66FF33;
+    margin-top: 0.5%;
+    margin-left: 4.5%;
+}
+.title2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #04012e;
+}
+.box4a1b2:hover{
+    background-image: linear-gradient(10deg,#00fff2,#0c23f3);
+}
+::selection{
+    background-color: #00eeff;
+}
+.box4a2{
+    margin-left: 35%;
+    margin-top: 5%;
+}
