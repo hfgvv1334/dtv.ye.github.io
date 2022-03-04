@@ -11,11 +11,11 @@ body{
 }
 .box2{
     background-image: linear-gradient(0deg,#0cf387,#001aff);
-    width: 30vw;
+    width: 30%;
     height: 20%;
     border-radius: 20%;
     border-color: #66FF33;
-    margin-left: 25%
+    margin-left: 35%
 }
 .box3{
     background-image: linear-gradient(10deg,#0c83f3,#4400ff);
@@ -89,7 +89,7 @@ color: #00ffdd;
     flex-direction: column;
 }
 .box4a1b2{
-    background-image: linear-gradient(10deg,#0b1785,#089992);
+    background-image: linear-gradient(10deg,#021cff,#00fff2);
     width: 90%;
     height: 76%;
     border-radius: 15px;
@@ -109,15 +109,27 @@ color: #00ffdd;
     background-color: #00eeff;
 }
 .box4a2{
-    margin-left: 35%;
-    margin-top: 5%;
+   margin-top: 1%;
+   margin-left: 1%;
+   
+    width: 15%;
+    height: 17%;
 }.img1{
     border-radius: 15%;
     border-color: #001aff;
     
 }
 .title3{
-    color: #090a1f;
+    color: #090c3f;
     font-size: 20px;
 }
+.box5{
+    
+    width: 20%%;
+    height: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
