@@ -87,11 +87,32 @@ flex-direction: column;
         font-size: 60px;
         font-family: 'Times New Roman', Times, serif;
         color: #1ad2f3;
+        text-align: center;
+       
+       
+        Text-decoration: none;
+        padding:0;
+        -webkit-animation: animatedBackground_a 15s linear infinite alternate;
+        
+    }
+    
+    @keyframes animatedBackground_a{
+        0% {color: #5dff00}
+        10% {color: #5dff00}
+        20% {color: #00ff2e}
+        30% {color: #00ff2e}
+        40% {color: #00ff9d}
+        50% {color: #09f0d1}
+        60% {color: #09f0dd}
+        70% {color: #09aef0}
+        80% {color: #09f097}
+        90% {color: #ffc400}
+        100% {color: #d9ff00} 
     }
 .mtitle2{
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
-    color: #1a8af3;
+    color: #f1cf10;
     text-align: center;
 }
 .box2a2{
